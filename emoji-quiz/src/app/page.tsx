@@ -9,6 +9,7 @@ type Question = {
 };
 
 export default function Home() {
+  const quizQuestions: Question[] = questions;
   const [current, setCurrent] = useState(0);
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
@@ -18,13 +19,12 @@ export default function Home() {
     if (selected) return; // förhindra spam
     setSelected(option);
 
-    const isCorrect = option === questions[current].answer;
+    const isCorrect = option === quizQuestions[current].answer;
     if (isCorrect) setScore(score + 1);
 
-    // Vänta 1 sekund innan nästa fråga
     setTimeout(() => {
       const next = current + 1;
-      if (next < questions.length) {
+      if (next < quizQuestions.length) {
         setCurrent(next);
         setSelected(null);
       } else {
@@ -39,14 +39,14 @@ export default function Home() {
 
       {showScore ? (
         <div>
-          <h2>Du fick {score} av {questions.length} rätt!</h2>
+          <h2>Du fick {score} av {quizQuestions.length} rätt!</h2>
         </div>
       ) : (
         <div>
-          <h2 style={{ fontSize: '3rem' }}>{questions[current].question}</h2>
+          <h2 style={{ fontSize: '3rem' }}>{quizQuestions[current].question}</h2>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 10, marginTop: 20 }}>
-            {questions[current].options.map((option) => {
-              const isCorrect = option === questions[current].answer;
+            {quizQuestions[current].options.map((option) => {
+              const isCorrect = option === quizQuestions[current].answer;
               const isSelected = option === selected;
 
               let backgroundColor = '';
