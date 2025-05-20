@@ -1,0 +1,52 @@
+[
+  {
+    "question": "🧑🦇🌃",
+    "options": ["Batman Begins", "Spiderman", "Joker", "Dark Knight"],
+    "answer": "Dark Knight"
+  },
+  {
+    "question": "🚢🧊💔",
+    "options": ["Pirates of the Caribbean", "Titanic", "Frozen", "Cast Away"],
+    "answer": "Titanic"
+  },
+  {
+    "question": "👽📞🏠",
+    "options": ["E.T.", "Arrival", "Independence Day", "Contact"],
+    "answer": "E.T."
+  },
+  {
+    "question": "🧪💥👨‍🔬🧠",
+    "options": ["Oppenheimer", "Breaking Bad", "The Big Bang Theory", "Limitless"],
+    "answer": "Breaking Bad"
+  },
+  {
+    "question": "👑🦁🌅",
+    "options": ["The Jungle Book", "The Lion King", "Zootopia", "Madagascar"],
+    "answer": "The Lion King"
+  },
+  {
+    "question": "🦖🌴💥",
+    "options": ["King Kong", "Jurassic Park", "Avatar", "Godzilla"],
+    "answer": "Jurassic Park"
+  },
+  {
+    "question": "🧙‍♂️💍🌋",
+    "options": ["Harry Potter", "The Hobbit", "Lord of the Rings", "Percy Jackson"],
+    "answer": "Lord of the Rings"
+  },
+  {
+    "question": "🚘🏁💨",
+    "options": ["Fast & Furious", "Cars", "Need for Speed", "Drive"],
+    "answer": "Fast & Furious"
+  },
+  {
+    "question": "🥔👨‍🚀🌌",
+    "options": ["Interstellar", "The Martian", "Gravity", "2001: A Space Odyssey"],
+    "answer": "The Martian"
+  },
+  {
+    "question": "🐧🎶❄️",
+    "options": ["March of the Penguins", "Happy Feet", "Ice Age", "Frozen"],
+    "answer": "Happy Feet"
+  }
+]
